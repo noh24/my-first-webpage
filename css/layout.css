@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  font-style: italic;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(114, 114, 146, 0.685);
+  padding: 8px;
+  gap: 8px;
+}
